@@ -1,0 +1,23 @@
+{
+    "name": "manzadey/certificate",
+    "description": "Get information about the secure connection certificate for a domain",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrey Manzadey",
+            "email": "andrey.manzadey@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2.5",
+    },
+    "require_dev": {
+        "phpunit/phpunit": "^8.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Manzadey\\Certificate\\": "src/"
+        }
+    }
+}
