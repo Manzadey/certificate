@@ -76,7 +76,7 @@ class Certificate
      */
     public function domain() : string
     {
-        return $this->all()['subject']['CN'];
+        return $this->url;
     }
 
     /**
