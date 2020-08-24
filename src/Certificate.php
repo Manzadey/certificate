@@ -76,11 +76,7 @@ class Certificate
      */
     public function domain() : string
     {
-        if ($this->emptyErrors()) {
-            return $this->all()['subject']['CN'];
-        }
-
-        return '';
+        return $this->all()['subject']['CN'];
     }
 
     /**
